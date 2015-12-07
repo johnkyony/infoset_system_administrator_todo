@@ -1,8 +1,8 @@
 class Task < ActiveRecord::Base
     validates_presence_of :title
     # validates_presence_of :future_completed_date
-    validates_presence_of :user
-    belongs_to :user
+    # validates_presence_of :user
+    # belongs_to :use
     private
     
     def future_completed_date
