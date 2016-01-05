@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
+  get 'tasks_history/index'
+
   devise_for :users
   get 'pages/home'
+  resources :tasks_history
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

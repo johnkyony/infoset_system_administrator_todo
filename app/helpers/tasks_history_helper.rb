@@ -1,0 +1,2 @@
+module TasksHistoryHelper
+end
