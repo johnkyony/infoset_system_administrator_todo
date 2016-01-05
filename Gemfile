@@ -23,6 +23,7 @@ group :development do
   gem "better_errors"
   gem 'sqlite3'
 end
+gem 'ruby-gmail'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
