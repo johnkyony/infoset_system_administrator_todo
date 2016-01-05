@@ -1,8 +1,5 @@
 class PagesController < ApplicationController
   def home
-   @tasks = Task.all
-   
-   
-   
+   @tasks = Task.where(created_at: Date.today)
   end
 end
