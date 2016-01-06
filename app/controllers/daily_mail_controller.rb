@@ -10,7 +10,7 @@ class DailyMailController < ApplicationController
         password  = 'f@cus1sbr1ght21'
         gmail = Gmail.new(user_name,password) 
         gmail.deliver do 
-            to "kanyinda.a@infoset.cd"
+            to "jkyony@gmail.com"
             subject "Daily report"
             text_part do 
                 body "This are the following task that are completed"
