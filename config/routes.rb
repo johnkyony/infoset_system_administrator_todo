@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   resources :tasks
   resources :users 
-   root 'pages#home'
+   root 'tasks_history#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
