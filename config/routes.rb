@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'daily_mail/index'
+
   get 'tasks_history/index'
 
   devise_for :users
