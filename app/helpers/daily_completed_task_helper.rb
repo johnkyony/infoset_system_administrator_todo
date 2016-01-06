@@ -1,0 +1,2 @@
+module DailyCompletedTaskHelper
+end

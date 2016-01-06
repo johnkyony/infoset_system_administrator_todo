@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'daily_completed_task/index'
+
   get 'daily_mail/index'
 
   get 'tasks_history/index'
